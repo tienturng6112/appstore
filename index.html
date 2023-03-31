@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script defer type="module" src="./script.js"></script>
+    <link rel="stylesheet" href="./assest/css/styles.css">
+    <title>Document</title>
+</head>
+<body> 
+    <header style="padding-bottom: 170px;background-image:linear-gradient(#737dfe,#ffcac9);" class="container-fluid  pt-2 color-red ">
+        <!-- 1 -->
+        <nav class=" container navbar navbar-expand ">
+            <div class="navbar-brand fs-1 text-light">
+                <i class="bi bi-apple"></i> 
+                Apple Store
+            </div>
+            <ul class="navbar-nav ms-auto ">
+                <li class="nav-item"><a href="#" class="nav-link text-light opacity-75 fs-4 text-white-50 ms-5 ">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light opacity-75 fs-4 text-white-50 ms-5 ">Contact</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-light opacity-75 fs-4 text-white-50 ms-5 ">Login</a></li>
+            </ul>
+        </nav>
+        <!-- 2 -->
+        <div class="container mt-5 ">
+            <div class="row">
+                <div class="col-6 mt-5">
+                    <h1 style="font-size: 3.5rem;" class="fw-bold text-light">CUỘC SỐNG TẠO NÊN THƯƠNG HIỆU.</h1>
+                    <!-- button sud -->
+                    <div class="pt-4 ps-0 pe-0 mt-3">
+                        <button style="padding-left:30px;padding-right: 30px;" class="btn btn-outline-light me-3" type="button">
+                            <i class="bi bi-cart-plus-fill"></i>
+                            Mua
+                        </button>
+                        <button class="btn  btn-outline-light" type="button">
+                            <i class="bi bi-caret-right-fill"></i>
+                            Xem Thêm
+                        </button>
+                    </div>
+                </div>
+                <div style="position:relative; top: -20px;right: -48px;" class="col-6">
+                    <img style="width: 350px; position: absolute;z-index: 1;" class=" p-3" src="./assest/img/stupiddog-removebg-preview-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid" style="background-color: aliceblue;">
+        <div style="padding:50px 100px 50px 100px" class="container">
+            <div  class="row text-center fw-lighter justify-content-around">
+                <div class="col-3 fw-normal ">
+                    <i style="color: #0086ff;" class="bi bi-patch-check-fill fs-1 "></i>
+                    <h5>Thiết kế mới</h5>
+                    <p>Sang trọng quý phái tạo cảm giác sang chảnh</p>
+                </div>
+                <div class="col-3 fw-normal">
+                    <i style="color: #f7d842;" class="bi bi-person-hearts fs-1"></i>
+                    <h5>Hệ điều hành số 1</h5>
+                    <p>Sở hữu số lượng người dùng đông đảo và tinh dùng</p>
+                </div> 
+                <div class="col-3 fw-normal">
+                    <i style="color: #ea7651;" class="bi bi-rocket-takeoff-fill fs-1"></i>
+                    <h5>Sức mạnh mới</h5>
+                    <p>Tăng khả năng tương thích và trải nghiệm đối với người dùng</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="background-image:linear-gradient(#737dfe,#ffcac9);" class="container-fluid pt-5 pb-3">
+        <div class="container p-0">
+            <div style="display: flex;align-items: center;" id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div style="margin: 0 auto;width: 700px;text-align: center;" class="carousel-inner ">
+                  <div  class="carousel-item active "  data-bs-interval="2000">
+                    <img style="margin: auto;" src="./assest/img/stupiddog-removebg-preview-removebg-preview.png" class="d-block w-25" alt="...">
+                    <p class="text-light">CUỘC SỐNG TẠO NÊN THƯƠNG HIỆU. </p>
+                    <button  class="btn btn-outline-light fs-5"> Mua Ngay</button>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                      <img style="margin: auto;width: 245px;"  src="./assest/img/ifan2.png" class="d-block " alt="...">
+                    <p class="text-light">CUỘC SỐNG TẠO NÊN THƯƠNG HIỆU. </p>
+                      <button  class="btn btn-outline-light fs-5"> Mua Ngay</button>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img style="margin: auto;width: 245px;"  src="./assest/img/ifan3.png" class="d-block" alt="...">
+                    <p class="text-light">CUỘC SỐNG TẠO NÊN THƯƠNG HIỆU. </p>
+                    <button  class="btn btn-outline-light fs-5"> Mua Ngay</button>
+                  </div>
+                </div>
+
+                    <!-- click button view -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+        </div>
+        <div class="container">
+            <div  class="row navbar p-5">
+                <div   class="col-3">
+                    <img style="width: 200px;" src="./assest/img/th__1_-removebg-preview.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img style="width: 200px;" src="./assest/img/veri-removebg-preview.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img style="width: 200px;" src="./assest/img/foxconn-removebg-preview.png" alt="">
+                </div>
+                <div class="col-3">
+                    <img style="width: 200px;" src="./assest/img/quatacomputer-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: flex;text-align: center;" class="container-fluid pt-5">
+        <div  class="container">
+            <h1> Tạo trải nghiệm và tầm cao mới</h1>
+            <p>Trao đổi điện thoại hiện tại của bạn để lấy tín dụng cho một điện thoại mới.</p>
+            <!-- cart -->
+            <div   class="row justify-content-around p-5">
+                <div class="col-3">
+                    <div  class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        
+                    <h5 class="card-title"> 
+                        <i style="color:#ea7651;" class="bi bi-apple"></i> 
+                        Fitness+
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Thể dục cho mọi người.
+                        Bây giờ tất cả những gì bạn cần là iPhone
+                        Fitness+</h6>
+                      <p class="card-text">Nhận ưu đãi của nhà cung cấp dịch vụ mà bạn yêu thích và tiết kiệm trên một chiếc iPhone mới khi bạn giao dịch và mua hàng ngay tại đây tại Apple.</p>
+                      <a style="background-color: #ffcac9; border-radius: 10px;text-decoration: none; color: #737dfe;font-weight: 500;"  href="#" class="card-link p-2 btn">Xem</a>
+                      <a style="background-color: #ffcac9; border-radius: 10px;text-decoration: none; color: #737dfe;font-weight: 500;"  href="#" class="card-link p-2 btn">Xem thêm...</a>
+                    </div>
+                  </div></div>
+                <div class="col-3"><div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <i style="color:#f7d842;" class="bi bi-apple"></i> 
+                        GiftCart
+                    </h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Cho mọi thứ và mọi người</h6>
+                      <div style="margin-top: 23px" class="size-heading-view">
+                          <p class="card-text">Có rất nhiều lựa chọn tuyệt vời để mua một chiếc iPhone. Cho dù bạn mua từ nhà bán lẻ, nhà cung cấp dịch vụ hay trực tuyến, việc tìm kiếm lựa chọn tốt nhất chưa bao giờ dễ dàng đến thế.</p>
+                          <a style="background-color: #ffcac9; border-radius: 10px;text-decoration: none; color: #737dfe;font-weight: 500;"  href="#" class="card-link p-2 btn">Xem</a>
+                          <a style="background-color: #ffcac9; border-radius: 10px;text-decoration: none; color: #737dfe;font-weight: 500;"  href="#" class="card-link p-2 btn">Xem thêm...</a>
+                        </div>
+                    </div>
+                  </div></div>
+                <div class="col-3"><div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        <i style="color:#737dfe" class="bi bi-apple"></i> 
+                        New +
+                    </h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Nhận 3 tháng Apple News+ miễn phí
+                        khi bạn mua iPhone.12</h6>
+                        <div style="margin-top: 100px;" class="size-heading-view-1">
+                            <p class="card-text">Hàng trăm tạp chí
+                                và các tờ báo hàng đầu.
+                                Một thuê bao.</p>
+                                <a style="background-color: #ffcac9; border-radius: 10px;text-decoration: none; color: #737dfe;font-weight: 500;" href="#" class="card-link p-2 btn">Xem</a>
+                                <a style="background-color: #ffcac9; border-radius: 10px;text-decoration: none; color: #737dfe;font-weight: 500;"  href="#" class="card-link p-2 btn">Xem thêm...</a>
+                            </div>
+                        </div>
+                  </div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div style="background-image:linear-gradient(#737dfe,#ffcac9);" class="container-fluid p-5">
+        <div style="text-align: center;" class="container">
+            <h1 class="text-light fs-3 fw-normal">Liên hệ và tư vấn thêm nhiều điều mới mẽ đến từ Ifan nào</h1>
+            <button class="btn btn-outline-light me-3 text-primary mt-5">
+                <i class="bi bi-facebook"></i>
+                Facebook</button>
+            <button class="btn btn-outline-light text-danger mt-5">
+                <i class="bi bi-google"></i>
+                Google Email</button>
+        </div>
+    </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
